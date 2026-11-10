@@ -1,0 +1,10 @@
+<ul class="brands__slider brands-slider active">
+	{% for brand in brands %}
+	<li class="brands-slider__item">
+		<picture>
+			<source srcset="images/brands/brand-{{ brand }}.webp" type="image/webp">
+			<img class="brands-slider__img" src="images/brands/brand-{{ brand }}.png" alt="" loading="lazy">
+		</picture>
+	</li>
+	{% endfor %}
+</ul>

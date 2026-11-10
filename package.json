@@ -1,0 +1,36 @@
+{
+  "name": "marlen",
+  "private": true,
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "check": "html-validate \"dist/*.html\""
+  },
+  "dependencies": {
+    "gsap": "3.9.1",
+    "scroll-lock": "2.1.5",
+    "split-type": "0.3.4",
+    "swiper": "12.2.0"
+  },
+  "engines": {
+    "node": ">=22.16"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "clean-css": "^5.3.3",
+    "esbuild": "0.28.2",
+    "gulp": "^5.0.1",
+    "html-validate": "^10.17.0",
+    "less": "^4.9.1",
+    "sharp": "0.35.5",
+    "twig": "^3.0.0"
+  },
+  "overrides": {
+    "html-validate": {
+      "glob": "^14.0.4"
+    },
+    "twig": {
+      "minimatch": "^11.0.1"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{% extends "../layout.twig" %}
+
+{% block title %}Marlen | Страница логистика{% endblock %}
+
+{% block content %}
+<div class="breadcrumbs">
+	<div class="breadcrumbs__container container">
+		<ul class="breadcrumbs__list">
+			<li class="breadcrumbs__item">
+				<a class="breadcrumbs__link" href="index.html">
+					Главная
+				</a>
+			</li>
+
+			<li class='breadcrumbs__item'><span class='breadcrumbs__link'>Логистика</span></li>
+		</ul>
+	</div>
+</div>
+
+				<div class="title-page">
+	<div class="title-page__container container">
+		<h1 class="title-page__title title title--page">Логистика
+		</h1>
+
+		<span class="title-page__line"></span>
+	</div>
+</div>
+
+				<section class="hero-page">
+	<div class="hero-page__container container">
+		<div class="hero-page__wrapper">
+			<div class="hero-page__image-box">
+				<picture><source srcset="images/menu/logistics.webp" type="image/webp"><img class="hero-page__img" src="images/menu/logistics.png" alt="" loading="lazy"></picture>
+			</div>
+
+			<div class="hero-page__info">
+				<h2 class="hero-page__title title title--hero">Автопарк</h2>
+
+				<div class='hero-page__text'><p>В 2000-м году компания MARLEN начала доставлять товары покупателям. В 2001-2009 годах расширялась клиентская база, увеличивался автопарк. </p><p>Сейчас у нас 120 оборудованных автомобилей доставки, поэтому наши товары не портятся в пути и приезжают к покупателям точно в срок</p></div>
+
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+				<section class="history history--logistics">
+	<h2 class="sr-only">История компании</h2>
+
+	<div class="history__container container">
+		<ul class="history__inner">
+			<li class="history__item">
+				<img class="history__image title-trigger" src="images/history/image-1.svg" alt="">
+
+				<div class="history__info section-trigger">
+					<h3 class="history__title">подъездные пути</h3>
+
+					<div class="history__text">
+						<p>У каждого филиала компании есть <span class="underline-trigger">собственные подъездные железнодорожные пути</span>, то есть, товар от поставщика попадает сразу же на наши склады. Это позволяет нам быстрее обеспечивать магазины свежими и качественными продуктами притания.</p>
+					</div>
+				</div>
+			</li>
+
+			<li class="history__item">
+				<img class="history__image title-trigger" src="images/history/image-2.svg" alt="">
+
+				<div class="history__info section-trigger">
+					<h3 class="history__title">доставка</h3>
+
+					<div class="history__text">
+						<p>География поставок торгового дома MARLEN — весь Хабаровский край и ЕАО (Ленинский, Амурзетский, Облучинский, Биробиджанский районы), Приморский край (Владивосток, Артем, Спасск, Уссурийск, Находка). Мы <span class="underline-trigger">доставляем товары в течение суток после поступления заявки</span> от покупателя.</p>
+					</div>
+				</div>
+			</li>
+
+			<li class="history__item">
+				<img class="history__image title-trigger" src="images/history/image-3.svg" alt="">
+
+				<div class="history__info section-trigger">
+					<h3 class="history__title">отгрузка товара</h3>
+
+					<div class="history__text">
+						<p>Мы отгружаем продукты оптом по предварительной оплате или <span class="underline-trigger">с отсрочкой платежа от 7 до 14 дней</span>. Условия отсрочки обсуждаются индивидуально с каждым клиентом, но действуют для всех категорий наших покупателей.</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+
+				<section class="logistics">
+	<div class="logistics__container container">
+		<h2 class="logistics__title title title-trigger">Складские помещения</h2>
+
+		<div class="logistics__image section-trigger" style="background-image: url('images/logistics/bg.jpg');"></div>
+
+		<ul class="logistics__inner title-trigger">
+			<li class="logistics__item">
+				<svg class="logistics__icon">
+					<use xlink:href="images/sprite.svg#icon-7"></use>
+				</svg>
+
+				<p class="logistics__text">8 складских комплексов с высокой пропускной способностью и четкой логистикой </p>
+			</li>
+
+			<li class="logistics__item">
+				<svg class="logistics__icon">
+					<use xlink:href="images/sprite.svg#check"></use>
+				</svg>
+
+				<p class="logistics__text">Простые и утепленные складские помещения</p>
+			</li>
+
+			<li class="logistics__item">
+				<svg class="logistics__icon">
+					<use xlink:href="images/sprite.svg#icon-8"></use>
+				</svg>
+
+				<p class="logistics__text">Соответствие всем санитарным условиям и нормам безопасности</p>
+			</li>
+
+			<li class="logistics__item">
+				<svg class="logistics__icon">
+					<use xlink:href="images/sprite.svg#icon-9"></use>
+				</svg>
+
+				<p class="logistics__text">Рефконтейнеры для хранения скоропортящихся продуктов питания</p>
+			</li>
+		</ul>
+	</div>
+</section>
+{% endblock %}

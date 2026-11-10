@@ -1,0 +1,163 @@
+.history {
+  padding-top: 80px;
+  margin-bottom: 190px;
+
+  &--logistics {
+    background-color: var(--gray-300);
+    margin-top: 80px;
+    padding-bottom: 162px;
+
+    .history__item {
+      overflow: hidden;
+      --padding-top: 30px;
+    }
+
+    .history__item:not(:last-child) {
+      margin-bottom: 55px;
+    }
+
+    .history__title {
+      max-width: 260px;
+    }
+  }
+
+  &__container {
+    display: flex;
+  }
+
+  &__inner {
+    width: 100%;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    --padding-top: 20px;
+
+    &:not(:first-child) {
+      --padding-top: 80px;
+    }
+  }
+
+  &__image {
+    max-width: 370px;
+    width: 100%;
+    margin-right: 15px;
+  }
+
+  &__date {
+    max-width: 412px;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid var(--gray-600);
+    padding-bottom: 23px;
+    position: relative;
+    margin-bottom: 115px;
+    margin-right: 20px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      transform: translate(0, 50%);
+      right: -15px;
+      width: 33px;
+      height: 66px;
+      .sprite-mask(arrow-right);
+      background-color: var(--gray-600);
+    }
+  }
+
+  &__geography {
+    position: relative;
+    max-width: 317px;
+    width: 100%;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 20px;
+
+    &::before {
+      content: "";
+      width: 90px;
+      height: 90px;
+      position: absolute;
+      left: -10px;
+      top: 95px;
+      background-color: var(--gray-600);
+      transform: rotate(43deg);
+    }
+
+    &::after {
+      content: "";
+      width: 136px;
+      height: 136px;
+      border-radius: 50%;
+      position: absolute;
+      top: -5px;
+      left: 156px;
+      z-index: -1;
+      background-color: var(--red);
+    }
+  }
+
+  &__decor {
+    position: absolute;
+    bottom: 36px;
+    left: 55px;
+    z-index: 0;
+    height: 0;
+    width: 230px;
+    border-top: 134px solid var(--gray-300);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    transform: rotate(-29deg);
+
+    &::before {
+      content: "";
+      width: 0;
+      height: 0;
+      position: absolute;
+      right: -50px;
+      bottom: 133.5px;
+      border-left: 115px solid transparent;
+      border-right: 115px solid transparent;
+      border-bottom: 79px solid var(--gray-300);
+    }
+  }
+
+  &__geography-text {
+    white-space: nowrap;
+    display: block;
+    position: relative;
+    z-index: 1;
+    max-width: 135px;
+  }
+
+  &__info {
+    max-width: 1132px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.22;
+    text-transform: uppercase;
+    max-width: 396px;
+    width: 100%;
+    margin-right: 15px;
+    padding-top: var(--padding-top);
+  }
+
+  &__text {
+    max-width: 554px;
+    width: 100%;
+    padding-top: var(--padding-top);
+  }
+}

@@ -1,0 +1,50 @@
+{% extends "../layout.twig" %}
+
+{% block title %}Marlen | Страница новостей{% endblock %}
+
+{% block content %}
+<div class="breadcrumbs">
+	<div class="breadcrumbs__container container">
+		<ul class="breadcrumbs__list">
+			<li class="breadcrumbs__item">
+				<a class="breadcrumbs__link" href="index.html">
+					Главная
+				</a>
+			</li>
+
+			<li class='breadcrumbs__item'><span class='breadcrumbs__link'>Новости</span></li>
+		</ul>
+	</div>
+</div>
+
+				<div class="title-page">
+	<div class="title-page__container container">
+		<h1 class="title-page__title title title--page">Новости
+		</h1>
+
+		<span class="title-page__line"></span>
+	</div>
+</div>
+
+				<section class="news">
+	<h2 class="sr-only">Список новостей</h2>
+	<div class="news__container container">
+		<ul class="news__list">
+            {% for item in news %}
+            <li class="news__item">
+                <div class="news__image-box">
+                    {% if item.image %}<img class="news__img" src="{{ item.image }}" alt="" loading="lazy">{% endif %}
+                </div>
+                <div class="news__info">
+                    <span class="news__date">{{ item.date }}</span>
+                    <div class="news__title-box">
+                        <h2 class="news__title">{% if item.article %}<a href="{{ item.article }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h2>
+                    </div>
+                    <p class="news__text">{{ item.text|striptags }}</p>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+	</div>
+</section>
+{% endblock %}

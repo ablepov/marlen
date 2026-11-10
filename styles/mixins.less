@@ -1,0 +1,22 @@
+// Interpolate between the site's two design widths. Endpoints use the same unit.
+.fluid(@property; @from; @to) {
+  @delta: unit((@to - @from));
+  @range: unit((@fluid-end - @fluid-start));
+  @{property}: calc(@from + @delta * ((100vw - @fluid-start) / @range));
+}
+
+.font-face(@family; @file; @weight) {
+  @font-face {
+    font-family: @family;
+    font-display: swap;
+    src: url("../fonts/@{file}.woff2") format("woff2"), url("../fonts/@{file}.woff") format("woff");
+    font-weight: @weight;
+    font-style: normal;
+  }
+}
+
+.sprite-mask(@icon; @position: center; @size: cover) {
+  @image: url("../images/sprite.svg#@{icon}") @position / @size no-repeat;
+  -webkit-mask: @image;
+  mask: @image;
+}

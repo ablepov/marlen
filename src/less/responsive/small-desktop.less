@@ -1,0 +1,183 @@
+@media (max-width: @screen-desktop) {
+  .info-address {
+    &__item {
+      padding-left: 21px;
+      display: block;
+    }
+
+    &__link {
+      display: block;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        left: -21px;
+        width: 12px;
+        height: 12px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      &--mail::before {
+        background-image: url("../images/sprite.svg#mail");
+      }
+
+      &--tel::before {
+        background-image: url("../images/sprite.svg#tel");
+      }
+
+      &--address::before {
+        background-image: url("../images/sprite.svg#address");
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+
+    &__text {
+      display: none;
+    }
+  }
+
+  .form-box__form {
+    padding-left: 50px;
+  }
+
+  .carousel-box {
+    padding-right: 30px;
+    padding-left: 30px;
+
+    &__btn {
+      width: 15px;
+      height: 28px;
+      top: calc(50% - 16px);
+    }
+  }
+
+  .header__list {
+    display: none;
+  }
+
+  .section-form {
+    &__inner {
+      padding: 0;
+    }
+
+    &__column {
+      align-items: center;
+    }
+  }
+
+  .menu {
+    &__list {
+      max-height: calc(100% - 300px);
+    }
+
+    &__address .info-address__list {
+      -moz-column-count: auto;
+      column-count: auto;
+    }
+  }
+
+  .history {
+    &__info {
+      display: block;
+    }
+
+    &__title {
+      margin-bottom: 25px;
+      margin-right: 0;
+      max-width: none;
+    }
+
+    &__text {
+      max-width: none;
+    }
+  }
+
+  .benefits__item {
+    flex: 1 0 30%;
+  }
+
+  .about {
+    &__image-box {
+      background-position: left -80px top 100px;
+    }
+
+    &__image {
+      background-size: cover;
+      background-position: 70% top;
+    }
+  }
+
+  .why-us {
+    &__wrapper {
+      margin-left: -15px;
+    }
+
+    &__item {
+      width: calc(25% - 15px);
+      margin-left: 15px;
+    }
+  }
+
+  .range-images {
+    max-width: 400px;
+  }
+
+  .popap-images__item {
+    width: 25%;
+  }
+
+  .pay-system {
+    &__wrapper {
+      display: block;
+    }
+
+    &__text {
+      max-width: none;
+    }
+  }
+
+  .awards__btn {
+    width: 15px;
+    height: 28px;
+    top: calc(50% - 16px);
+  }
+
+  .news {
+    &__image-box {
+      max-width: 250px;
+      height: 150px;
+    }
+
+    &__info {
+      padding-right: 60px;
+    }
+
+    &__arrow {
+      padding-left: 40px;
+      right: 10px;
+
+      &::before {
+        width: 15px;
+        height: 33px;
+        top: calc(50% - 17px);
+      }
+
+      &::after {
+        width: 27px;
+        height: 65px;
+        top: 2px;
+      }
+    }
+  }
+}

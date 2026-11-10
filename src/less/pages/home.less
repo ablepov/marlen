@@ -1,0 +1,371 @@
+.hero-carousel {
+  height: calc(100vh - 85px);
+  background-color: var(--gray-600);
+  position: relative;
+
+  &__container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &__info {
+    max-width: 740px;
+    width: 100%;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 160px;
+  }
+
+  &__title {
+    margin-bottom: 46px;
+  }
+
+  &__note {
+    margin-bottom: 31px;
+    position: relative;
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    overflow: hidden;
+  }
+
+  &__note-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--red);
+  }
+
+  &__descr {
+    margin-bottom: 48px;
+    max-width: 590px;
+  }
+
+  &__img {
+    max-width: 900px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 160px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+  }
+
+  &__management {
+    position: absolute;
+    bottom: 72px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    color: var(--white);
+  }
+
+  &__management-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__arrow {
+    font-size: 12px;
+    line-height: 2;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 30px;
+
+    &::before {
+      content: "";
+      width: 6px;
+      height: 12px;
+      .sprite-mask(arrow-right);
+      background-color: var(--white);
+      margin-left: 12px;
+    }
+  }
+
+  &__pagination {
+    display: flex;
+  }
+
+  &__bullet {
+    display: block;
+    flex: 0 0 93px;
+    height: 10px;
+    background-color: var(--gray-400);
+    opacity: 0.2;
+
+    &:not(:last-child) {
+      margin-right: 21px;
+    }
+
+    &--active {
+      opacity: 1;
+    }
+  }
+}
+
+.benefits {
+  padding-top: 187px;
+  padding-bottom: 136px;
+
+  &__title {
+    margin-bottom: 73px;
+  }
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    flex: 1 0 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 43px 25px 64px;
+    border-top: 1px solid var(--gray-600);
+    border-right: 1px solid var(--gray-600);
+  }
+
+  &__name {
+    font-size: 26px;
+    line-height: 1.19;
+    font-weight: 700;
+    margin-bottom: 55px;
+  }
+
+  &__descr {
+    margin-bottom: 47px;
+  }
+
+  &__icon {
+    height: 176px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: auto;
+    transition: filter 0.3s ease-in-out;
+  }
+}
+
+.about {
+  overflow-x: hidden;
+  display: flex;
+  background-color: var(--gray-300);
+
+  &__image-box {
+    flex: 0 0 50vw;
+    background-color: var(--gray-600);
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/about/decor-bg.svg");
+    background-repeat: no-repeat;
+    background-position: left -20px top 80px;
+  }
+
+  &__image {
+    height: 120%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 75% bottom;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__wrapper {
+    flex: 0 0 100vw;
+    transform: translate(-50vw, 0);
+  }
+
+  &__content {
+    max-width: 50%;
+    margin-left: auto;
+    padding-top: 129px;
+    padding-bottom: 129px;
+    padding-left: 15px;
+  }
+
+  &__info {
+    max-width: 560px;
+    margin: 0 auto;
+
+    & *:last-child {
+      margin-bottom: 0px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 51px;
+  }
+
+  &__text {
+    margin-bottom: 47px;
+
+    p:not(:last-child) {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.indicators {
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--gray-600);
+  }
+
+  &__item {
+    width: 33.3333333333%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    &:nth-child(n+4) {
+      padding-left: 123px;
+    }
+
+    &:not(:first-child) {
+      padding-right: 20px;
+    }
+  }
+
+  &__number {
+    font-size: 72px;
+    line-height: 1.22;
+    font-weight: 700;
+    margin-bottom: 1px;
+  }
+
+  &__text {
+    line-height: 1.25;
+  }
+}
+
+.in-branch {
+  &__title {
+    margin-bottom: 60px;
+  }
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -21px;
+  }
+
+  &__item {
+    width: calc(25% - 21px);
+    margin-left: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &:nth-child(even) {
+      border-left: 1px solid var(--gray-600);
+      border-right: 1px solid var(--gray-600);
+    }
+
+    &:nth-child(even) .in-branch__image-box {
+      padding-bottom: 113.55%;
+    }
+
+    &:nth-child(even) .in-branch__text {
+      padding: 29px 25px;
+    }
+
+    &:nth-child(odd) .in-branch__image-box {
+      padding-bottom: 135.45%;
+    }
+  }
+
+  &__image-box {
+    position: relative;
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  &__text {
+    padding: 29px 0;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.38;
+  }
+}
+
+.branches__container {
+  padding-top: 190px;
+  padding-bottom: 75px;
+}
+
+.branch-directory {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 245px), 1fr));
+  gap: 24px;
+  margin-bottom: 60px;
+
+  &__item {
+    padding: 24px;
+    background: var(--gray-300);
+
+    a {
+      display: block;
+      width: fit-content;
+      text-decoration: underline;
+      overflow-wrap: anywhere;
+    }
+
+    a + a {
+      margin-top: 8px;
+    }
+  }
+}
+
+.news {
+  &__list {
+    .news__img {
+      opacity: 1;
+    }
+
+    .news__title a {
+      text-decoration: underline;
+    }
+  }
+}
+
+.branches__city {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,340 @@
+{
+	"results": [
+		{
+			"title": "Акции",
+			"url": "http://marlen/news/akcii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/521fa6a467d0cf8dab70280bf538024b.jpg",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Ретейл масштабно внедряет инновации в розничную торговлю.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Производители и торговые сети в Приморье договорились продавать рыбу по социальным ценам. В маркетах появятся надписи Приморская рыба",
+			"url": "http://marlen/news/proizvoditeli-i-torgovye-seti-v-primore-dogovorilis-prodavat-rybu-po-socialnym-cenam-v-marketax-poyavyatsya-nadpisi-primorskaya-ryba",
+			"image": "",
+			"small_image": "",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В супермаркетах появятся полки с надписью: \"Социальная программа \"Приморская рыба\". Рыбохозяйственные и торговые предприятия Приморья подписали соглашения, предполагающие поставку и продажу жителям края рыбы по социальным ценам, сообщает пресс-служба администрации Приморского края. Это стало шагом.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Новый контракт: Slavda Group",
+			"url": "http://marlen/news/novyi-kontrakt-slavda-group",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/1df6610a508b1ac0b6b2cb3f20ce95ea.png",
+			"text": "<p><span style=\"white-space: pre-wrap;\">У нашей компании появился новый партнер и поставщик, который специализируется на выпуске экологически чистой питьевой минеральной воды на Дальнем Востоке.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с Coca-Cola: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-coca-cola-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Торговый дом MARLEN стал официальным дистрибьютором популярного бренда в Приморском крае.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с «Роллтон»: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-rollton-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В контракт с одним из лидеров производства продуктов быстрого приготовления включен биробиджанский филиал торгового дома MARLEN.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Традиционные магазины переживут онлайн-революцию",
+			"url": "http://marlen/news/tradicionnye-magaziny-perezivut-onlain-revolyuciyu",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Пандемия коронавирусной инфекции и самоизоляция стремительно загнали всех потребителей в онлайн...</span></p>",
+			"date": "21.02.2022"
+		},
+		{
+			"title": "Акции",
+			"url": "http://marlen/news/akcii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/521fa6a467d0cf8dab70280bf538024b.jpg",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Ретейл масштабно внедряет инновации в розничную торговлю.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Производители и торговые сети в Приморье договорились продавать рыбу по социальным ценам. В маркетах появятся надписи Приморская рыба",
+			"url": "http://marlen/news/proizvoditeli-i-torgovye-seti-v-primore-dogovorilis-prodavat-rybu-po-socialnym-cenam-v-marketax-poyavyatsya-nadpisi-primorskaya-ryba",
+			"image": "",
+			"small_image": "",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В супермаркетах появятся полки с надписью: \"Социальная программа \"Приморская рыба\". Рыбохозяйственные и торговые предприятия Приморья подписали соглашения, предполагающие поставку и продажу жителям края рыбы по социальным ценам, сообщает пресс-служба администрации Приморского края. Это стало шагом.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Новый контракт: Slavda Group",
+			"url": "http://marlen/news/novyi-kontrakt-slavda-group",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/1df6610a508b1ac0b6b2cb3f20ce95ea.png",
+			"text": "<p><span style=\"white-space: pre-wrap;\">У нашей компании появился новый партнер и поставщик, который специализируется на выпуске экологически чистой питьевой минеральной воды на Дальнем Востоке.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с Coca-Cola: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-coca-cola-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Торговый дом MARLEN стал официальным дистрибьютором популярного бренда в Приморском крае.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с «Роллтон»: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-rollton-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В контракт с одним из лидеров производства продуктов быстрого приготовления включен биробиджанский филиал торгового дома MARLEN.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Традиционные магазины переживут онлайн-революцию",
+			"url": "http://marlen/news/tradicionnye-magaziny-perezivut-onlain-revolyuciyu",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Пандемия коронавирусной инфекции и самоизоляция стремительно загнали всех потребителей в онлайн...</span></p>",
+			"date": "21.02.2022"
+		},
+		{
+			"title": "Акции",
+			"url": "http://marlen/news/akcii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/521fa6a467d0cf8dab70280bf538024b.jpg",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Ретейл масштабно внедряет инновации в розничную торговлю.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Производители и торговые сети в Приморье договорились продавать рыбу по социальным ценам. В маркетах появятся надписи Приморская рыба",
+			"url": "http://marlen/news/proizvoditeli-i-torgovye-seti-v-primore-dogovorilis-prodavat-rybu-po-socialnym-cenam-v-marketax-poyavyatsya-nadpisi-primorskaya-ryba",
+			"image": "",
+			"small_image": "",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В супермаркетах появятся полки с надписью: \"Социальная программа \"Приморская рыба\". Рыбохозяйственные и торговые предприятия Приморья подписали соглашения, предполагающие поставку и продажу жителям края рыбы по социальным ценам, сообщает пресс-служба администрации Приморского края. Это стало шагом.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Новый контракт: Slavda Group",
+			"url": "http://marlen/news/novyi-kontrakt-slavda-group",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/1df6610a508b1ac0b6b2cb3f20ce95ea.png",
+			"text": "<p><span style=\"white-space: pre-wrap;\">У нашей компании появился новый партнер и поставщик, который специализируется на выпуске экологически чистой питьевой минеральной воды на Дальнем Востоке.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с Coca-Cola: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-coca-cola-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Торговый дом MARLEN стал официальным дистрибьютором популярного бренда в Приморском крае.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с «Роллтон»: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-rollton-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В контракт с одним из лидеров производства продуктов быстрого приготовления включен биробиджанский филиал торгового дома MARLEN.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Традиционные магазины переживут онлайн-революцию",
+			"url": "http://marlen/news/tradicionnye-magaziny-perezivut-onlain-revolyuciyu",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Пандемия коронавирусной инфекции и самоизоляция стремительно загнали всех потребителей в онлайн...</span></p>",
+			"date": "21.02.2022"
+		},
+		{
+			"title": "Акции",
+			"url": "http://marlen/news/akcii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/521fa6a467d0cf8dab70280bf538024b.jpg",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Ретейл масштабно внедряет инновации в розничную торговлю.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Производители и торговые сети в Приморье договорились продавать рыбу по социальным ценам. В маркетах появятся надписи Приморская рыба",
+			"url": "http://marlen/news/proizvoditeli-i-torgovye-seti-v-primore-dogovorilis-prodavat-rybu-po-socialnym-cenam-v-marketax-poyavyatsya-nadpisi-primorskaya-ryba",
+			"image": "",
+			"small_image": "",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В супермаркетах появятся полки с надписью: \"Социальная программа \"Приморская рыба\". Рыбохозяйственные и торговые предприятия Приморья подписали соглашения, предполагающие поставку и продажу жителям края рыбы по социальным ценам, сообщает пресс-служба администрации Приморского края. Это стало шагом.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Новый контракт: Slavda Group",
+			"url": "http://marlen/news/novyi-kontrakt-slavda-group",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/1df6610a508b1ac0b6b2cb3f20ce95ea.png",
+			"text": "<p><span style=\"white-space: pre-wrap;\">У нашей компании появился новый партнер и поставщик, который специализируется на выпуске экологически чистой питьевой минеральной воды на Дальнем Востоке.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с Coca-Cola: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-coca-cola-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Торговый дом MARLEN стал официальным дистрибьютором популярного бренда в Приморском крае.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с «Роллтон»: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-rollton-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В контракт с одним из лидеров производства продуктов быстрого приготовления включен биробиджанский филиал торгового дома MARLEN.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Традиционные магазины переживут онлайн-революцию",
+			"url": "http://marlen/news/tradicionnye-magaziny-perezivut-onlain-revolyuciyu",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Пандемия коронавирусной инфекции и самоизоляция стремительно загнали всех потребителей в онлайн...</span></p>",
+			"date": "21.02.2022"
+		},
+		{
+			"title": "Акции",
+			"url": "http://marlen/news/akcii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/521fa6a467d0cf8dab70280bf538024b.jpg",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Ретейл масштабно внедряет инновации в розничную торговлю.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Производители и торговые сети в Приморье договорились продавать рыбу по социальным ценам. В маркетах появятся надписи Приморская рыба",
+			"url": "http://marlen/news/proizvoditeli-i-torgovye-seti-v-primore-dogovorilis-prodavat-rybu-po-socialnym-cenam-v-marketax-poyavyatsya-nadpisi-primorskaya-ryba",
+			"image": "",
+			"small_image": "",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В супермаркетах появятся полки с надписью: \"Социальная программа \"Приморская рыба\". Рыбохозяйственные и торговые предприятия Приморья подписали соглашения, предполагающие поставку и продажу жителям края рыбы по социальным ценам, сообщает пресс-служба администрации Приморского края. Это стало шагом.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Новый контракт: Slavda Group",
+			"url": "http://marlen/news/novyi-kontrakt-slavda-group",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/1df6610a508b1ac0b6b2cb3f20ce95ea.png",
+			"text": "<p><span style=\"white-space: pre-wrap;\">У нашей компании появился новый партнер и поставщик, который специализируется на выпуске экологически чистой питьевой минеральной воды на Дальнем Востоке.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с Coca-Cola: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-coca-cola-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Торговый дом MARLEN стал официальным дистрибьютором популярного бренда в Приморском крае.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с «Роллтон»: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-rollton-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В контракт с одним из лидеров производства продуктов быстрого приготовления включен биробиджанский филиал торгового дома MARLEN.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Традиционные магазины переживут онлайн-революцию",
+			"url": "http://marlen/news/tradicionnye-magaziny-perezivut-onlain-revolyuciyu",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Пандемия коронавирусной инфекции и самоизоляция стремительно загнали всех потребителей в онлайн...</span></p>",
+			"date": "21.02.2022"
+		},
+		{
+			"title": "Акции",
+			"url": "http://marlen/news/akcii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/521fa6a467d0cf8dab70280bf538024b.jpg",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Ретейл масштабно внедряет инновации в розничную торговлю.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Производители и торговые сети в Приморье договорились продавать рыбу по социальным ценам. В маркетах появятся надписи Приморская рыба",
+			"url": "http://marlen/news/proizvoditeli-i-torgovye-seti-v-primore-dogovorilis-prodavat-rybu-po-socialnym-cenam-v-marketax-poyavyatsya-nadpisi-primorskaya-ryba",
+			"image": "",
+			"small_image": "",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В супермаркетах появятся полки с надписью: \"Социальная программа \"Приморская рыба\". Рыбохозяйственные и торговые предприятия Приморья подписали соглашения, предполагающие поставку и продажу жителям края рыбы по социальным ценам, сообщает пресс-служба администрации Приморского края. Это стало шагом.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Новый контракт: Slavda Group",
+			"url": "http://marlen/news/novyi-kontrakt-slavda-group",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/1df6610a508b1ac0b6b2cb3f20ce95ea.png",
+			"text": "<p><span style=\"white-space: pre-wrap;\">У нашей компании появился новый партнер и поставщик, который специализируется на выпуске экологически чистой питьевой минеральной воды на Дальнем Востоке.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с Coca-Cola: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-coca-cola-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Торговый дом MARLEN стал официальным дистрибьютором популярного бренда в Приморском крае.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с «Роллтон»: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-rollton-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В контракт с одним из лидеров производства продуктов быстрого приготовления включен биробиджанский филиал торгового дома MARLEN.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Традиционные магазины переживут онлайн-революцию",
+			"url": "http://marlen/news/tradicionnye-magaziny-perezivut-onlain-revolyuciyu",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Пандемия коронавирусной инфекции и самоизоляция стремительно загнали всех потребителей в онлайн...</span></p>",
+			"date": "21.02.2022"
+		},
+		{
+			"title": "Акции",
+			"url": "http://marlen/news/akcii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/521fa6a467d0cf8dab70280bf538024b.jpg",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Ретейл масштабно внедряет инновации в розничную торговлю.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Производители и торговые сети в Приморье договорились продавать рыбу по социальным ценам. В маркетах появятся надписи Приморская рыба",
+			"url": "http://marlen/news/proizvoditeli-i-torgovye-seti-v-primore-dogovorilis-prodavat-rybu-po-socialnym-cenam-v-marketax-poyavyatsya-nadpisi-primorskaya-ryba",
+			"image": "",
+			"small_image": "",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В супермаркетах появятся полки с надписью: \"Социальная программа \"Приморская рыба\". Рыбохозяйственные и торговые предприятия Приморья подписали соглашения, предполагающие поставку и продажу жителям края рыбы по социальным ценам, сообщает пресс-служба администрации Приморского края. Это стало шагом.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Новый контракт: Slavda Group",
+			"url": "http://marlen/news/novyi-kontrakt-slavda-group",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/images/uploads/1df6610a508b1ac0b6b2cb3f20ce95ea.png",
+			"text": "<p><span style=\"white-space: pre-wrap;\">У нашей компании появился новый партнер и поставщик, который специализируется на выпуске экологически чистой питьевой минеральной воды на Дальнем Востоке.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с Coca-Cola: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-coca-cola-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Торговый дом MARLEN стал официальным дистрибьютором популярного бренда в Приморском крае.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Контракт с «Роллтон»: присоединение новой территории",
+			"url": "http://marlen/news/kontrakt-s-rollton-prisoedinenie-novoi-territorii",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">В контракт с одним из лидеров производства продуктов быстрого приготовления включен биробиджанский филиал торгового дома MARLEN.</span></p>",
+			"date": "14.03.2022"
+		},
+		{
+			"title": "Традиционные магазины переживут онлайн-революцию",
+			"url": "http://marlen/news/tradicionnye-magaziny-perezivut-onlain-revolyuciyu",
+			"image": "http://marlen/images/news/image.jpg",
+			"small_image": "http://marlen/",
+			"text": "<p><span style=\"white-space: pre-wrap;\">Пандемия коронавирусной инфекции и самоизоляция стремительно загнали всех потребителей в онлайн...</span></p>",
+			"date": "21.02.2022"
+		}
+	]
+}

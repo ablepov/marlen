@@ -1,0 +1,122 @@
+.underline-trigger {
+  padding-bottom: 7px;
+  margin-bottom: -7px;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, transparent 20%, var(--red) 21%);
+  background-position: 0 1em;
+  background-repeat: no-repeat;
+  background-size: 0 3px;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--red);
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.title {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 1.16;
+  color: var(--gray-600);
+
+  &--page {
+    font-size: 65px;
+    line-height: 1.215;
+  }
+
+  &--white {
+    color: var(--white);
+    font-size: 40px;
+    line-height: 1.225;
+  }
+
+  &--hero {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+
+  &__element {
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0 20px 6px;
+    margin-left: -20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__bg {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: var(--red);
+  }
+}
+
+.info-address {
+  &__item {
+    overflow: hidden;
+    page-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    break-inside: avoid;
+    break-inside: avoid-column;
+    padding: 4px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    &:not(:last-child) {
+      margin-bottom: 17px;
+    }
+  }
+
+  &__link {
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  &__text {
+    display: inline-block;
+  }
+}
+
+.btn-to-top {
+  position: fixed;
+  bottom: 23px;
+  left: 15px;
+  z-index: 9990;
+  width: 70px;
+  height: 70px;
+  border: 1px solid var(--gray-600);
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --color-arrow: var(--gray-600);
+
+  &::before {
+    content: "";
+    width: 35px;
+    height: 17px;
+    .sprite-mask(arrow-up);
+    background-color: var(--color-arrow);
+    transition: background-color 0.3s ease-in-out;
+  }
+}

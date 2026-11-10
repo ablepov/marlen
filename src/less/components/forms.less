@@ -1,0 +1,100 @@
+.form-box {
+  display: flex;
+
+  &__column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &--left {
+      border-right: 1px solid var(--gray-600);
+      padding-right: 15px;
+    }
+
+    &--right {
+      align-items: flex-end;
+    }
+  }
+
+  &__title {
+    margin-bottom: 23px;
+    max-width: 600px;
+  }
+
+  &__text {
+    max-width: 550px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  &__form {
+    max-width: 416px;
+    width: 100%;
+  }
+
+  &__inner {
+    margin-bottom: 56px;
+  }
+
+  &__item {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      left: -50px;
+      width: 36px;
+      height: 66px;
+      .sprite-mask(arrow-right);
+      background-color: var(--gray-600);
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    &:focus-within::before {
+      opacity: 1;
+    }
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+    padding: 40px 25px 25px;
+    border-bottom: 1px solid var(--gray-600);
+    font-size: 24px;
+    line-height: 1.2;
+    outline: transparent;
+
+    &::-moz-placeholder {
+      color: var(--gray-600);
+      font-size: 24px;
+      line-height: 1.2;
+    }
+
+    &:-ms-input-placeholder {
+      color: var(--gray-600);
+      font-size: 24px;
+      line-height: 1.2;
+    }
+
+    &::placeholder {
+      color: var(--gray-600);
+      font-size: 24px;
+      line-height: 1.2;
+    }
+  }
+
+  &__agreement {
+    margin-bottom: 34px;
+    font-size: 12px;
+    line-height: 1.25;
+  }
+
+  &__btn {
+    width: 100%;
+  }
+}

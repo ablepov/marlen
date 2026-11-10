@@ -1,0 +1,11 @@
+{
+  "extends": ["html-validate:standard"],
+  "rules": {
+    "unique-landmark": "error",
+    "no-dup-id": "error",
+    "no-missing-references": "error",
+    "input-missing-label": "error",
+    "wcag/h30": "error",
+    "wcag/h37": "error"
+  }
+}

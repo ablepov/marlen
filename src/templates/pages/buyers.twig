@@ -1,0 +1,573 @@
+{% extends "../layout.twig" %}
+
+{% block title %}Marlen | Страница покупателям{% endblock %}
+
+{% block content %}
+<div class="breadcrumbs">
+	<div class="breadcrumbs__container container">
+		<ul class="breadcrumbs__list">
+			<li class="breadcrumbs__item">
+				<a class="breadcrumbs__link" href="index.html">
+					Главная
+				</a>
+			</li>
+
+			<li class='breadcrumbs__item'><span class='breadcrumbs__link'>Покупателям</span></li>
+		</ul>
+	</div>
+</div>
+
+				<div class="title-page">
+	<div class="title-page__container container">
+		<h1 class="title-page__title title title--page">Покупателям
+		</h1>
+
+		<span class="title-page__line"></span>
+	</div>
+</div>
+
+				<section class="hero-page">
+	<div class="hero-page__container container">
+		<div class="hero-page__wrapper">
+			<div class="hero-page__image-box">
+				<picture><source srcset="images/menu/buyers-page.webp" type="image/webp"><img class="hero-page__img" src="images/menu/buyers-page.png" alt="" loading="lazy"></picture>
+			</div>
+
+			<div class="hero-page__info">
+				<h2 class="hero-page__title title title--hero">Продукты для вашего бизнеса <span class='title__element'>по выгодным ценам<span class='title__bg'></span></span></h2>
+
+				<div class='hero-page__text'><p>Работаем с крупными торговыми сетями и мелкой розницей в Хабаровском крае, ЕАО и Приморье. Создаем комфортные условия сотрудничества для бизнеса любого масштаба.</p></div>
+
+				<button class='hero-page__btn btn btn--dark' type='button'>Сделать заказ</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+				<section class="brands">
+	<div class="brands__container container">
+		<h2 class="brands__title title-split">MARLEN — дистрибьютор, которому доверяют
+			6 000+ постоянных покупателей
+		</h2>
+
+		<div class="brands__wrapper section-trigger">
+			<div class="brands__buttons">
+				<button class="brands__btn brands__btn--prev" type="button">
+					<span class="sr-only">Предыдущий слайд</span>
+				</button>
+				<button class="brands__btn brands__btn--next" type="button">
+					<span class="brands__btn-text">Далее</span>
+					<span class="sr-only">Следующий слайд</span>
+				</button>
+			</div>
+
+			{% include "../partials/brand-slider.twig" with {brands: 37..62} %}
+		</div>
+	</div>
+</section>
+
+				<section class="why-us-buyers">
+	<div class="why-us-buyers__container container">
+		<h2 class="why-us-buyers__title title title-trigger">Почему нас выбирают крупные торговые сети?</h2>
+
+		<ul class="why-us-buyers__wrapper section-trigger">
+			<li class="why-us-buyers__item">
+				<div class="why-us-buyers__img">
+					<svg class="why-us-buyers__icon">
+						<use xlink:href="images/sprite.svg#icon-1"></use>
+					</svg>
+				</div>
+
+				<p class="why-us-buyers__text">Свежие, качественные и популярные продукты</p>
+			</li>
+
+			<li class="why-us-buyers__item">
+				<div class="why-us-buyers__img">
+					<svg class="why-us-buyers__icon">
+						<use xlink:href="images/sprite.svg#icon-2"></use>
+					</svg>
+				</div>
+
+				<p class="why-us-buyers__text">Маркетинговые акции от наших поставщиков</p>
+			</li>
+
+			<li class="why-us-buyers__item">
+				<div class="why-us-buyers__img">
+					<svg class="why-us-buyers__icon">
+						<use xlink:href="images/sprite.svg#icon-3"></use>
+					</svg>
+				</div>
+
+				<p class="why-us-buyers__text">Бесплатная доставка заказов покупателям</p>
+			</li>
+
+			<li class="why-us-buyers__item">
+				<div class="why-us-buyers__img">
+					<svg class="why-us-buyers__icon">
+						<use xlink:href="images/sprite.svg#icon-4"></use>
+					</svg>
+				</div>
+
+				<p class="why-us-buyers__text">Отгрузка по предварительной оплате</p>
+			</li>
+
+			<li class="why-us-buyers__item">
+				<div class="why-us-buyers__img">
+					<svg class="why-us-buyers__icon">
+						<use xlink:href="images/sprite.svg#icon-5"></use>
+					</svg>
+				</div>
+
+				<p class="why-us-buyers__text">Услуги мерчандайзеров</p>
+			</li>
+
+			<li class="why-us-buyers__item">
+				<div class="why-us-buyers__img">
+					<svg class="why-us-buyers__icon">
+						<use xlink:href="images/sprite.svg#icon-6"></use>
+					</svg>
+				</div>
+
+				<p class="why-us-buyers__text">Гибкая система отсрочек оплаты</p>
+			</li>
+
+			<li class="why-us-buyers__item">
+				<div class="why-us-buyers__img">
+					<svg class="why-us-buyers__icon">
+						<use xlink:href="images/sprite.svg#icon-7"></use>
+					</svg>
+				</div>
+
+				<p class="why-us-buyers__text">Более 10 000 SKU</p>
+			</li>
+		</ul>
+	</div>
+</section>
+
+				<section class="range">
+	<div class="range__container container">
+		<h2 class="range__title title title-trigger">Товарный ассортимент</h2>
+
+		<div class="range__wrapper section-trigger">
+			<ul class="range__inner">
+				<li class="range__item">
+					<span class="range__image-box">
+						<picture><source srcset="images/range/image-1.webp" type="image/webp"><img class="range__img" src="images/range/image-1.png" alt="" loading="lazy"></picture>
+					</span>
+
+					<button class="range__link range__link--active" type="button">Консервированная продукция</button>
+				</li>
+
+				<li class="range__item">
+					<span class="range__image-box">
+						<picture><source srcset="images/range/image-2.webp" type="image/webp"><img class="range__img" src="images/range/image-2.png" alt="" loading="lazy"></picture>
+					</span>
+
+					<button class="range__link" type="button">Кондитерские изделия</button>
+				</li>
+
+				<li class="range__item">
+					<span class="range__image-box">
+						<picture><source srcset="images/range/image-3.webp" type="image/webp"><img class="range__img" src="images/range/image-3.png" alt="" loading="lazy"></picture>
+					</span>
+
+					<button class="range__link" type="button">Продукты быстрого приготовления</button>
+				</li>
+
+				<li class="range__item">
+					<span class="range__image-box">
+						<picture><source srcset="images/range/image-4.webp" type="image/webp"><img class="range__img" src="images/range/image-4.png" alt="" loading="lazy"></picture>
+					</span>
+
+					<button class="range__link" type="button">Масложировая продукция</button>
+				</li>
+
+				<li class="range__item">
+					<span class="range__image-box">
+						<picture><source srcset="images/range/image-5.webp" type="image/webp"><img class="range__img" src="images/range/image-5.png" alt="" loading="lazy"></picture>
+					</span>
+
+					<button class="range__link" type="button">Приправы и специи</button>
+				</li>
+
+				<li class="range__item">
+					<span class="range__image-box">
+						<picture><source srcset="images/range/image-6.webp" type="image/webp"><img class="range__img" src="images/range/image-6.png" alt="" loading="lazy"></picture>
+					</span>
+
+					<button class="range__link" type="button">Макаронные изделия и крупы</button>
+				</li>
+
+				<li class="range__item">
+					<span class="range__image-box">
+						<picture><source srcset="images/range/image-7.webp" type="image/webp"><img class="range__img" src="images/range/image-7.png" alt="" loading="lazy"></picture>
+					</span>
+
+					<button class="range__link" type="button">Сыры и йогурты</button>
+				</li>
+
+				<li class="range__item">
+					<span class="range__image-box">
+						<picture><source srcset="images/range/image-8.webp" type="image/webp"><img class="range__img" src="images/range/image-8.png" alt="" loading="lazy"></picture>
+					</span>
+
+					<button class="range__link" type="button">Соки, напитки и вода</button>
+				</li>
+
+				<li class="range__item">
+					<span class="range__image-box">
+						<picture><source srcset="images/range/image-9.webp" type="image/webp"><img class="range__img" src="images/range/image-9.png" alt="" loading="lazy"></picture>
+					</span>
+
+					<button class="range__link" type="button">Детское питание</button>
+				</li>
+
+				<li class="range__item">
+					<span class="range__image-box">
+						<picture><source srcset="images/range/image-10.webp" type="image/webp"><img class="range__img" src="images/range/image-10.png" alt="" loading="lazy"></picture>
+					</span>
+
+					<button class="range__link" type="button">Чай и кофе</button>
+				</li>
+			</ul>
+
+			<ul class="range__image-list range-images">
+				<li class="range-images__item range-images__item--active">
+					<picture><source srcset="images/range/image-1.webp" type="image/webp"><img class="range-images__img" src="images/range/image-1.png" alt="" loading="lazy"></picture>
+				</li>
+				<li class="range-images__item">
+					<picture><source srcset="images/range/image-2.webp" type="image/webp"><img class="range-images__img" src="images/range/image-2.png" alt="" loading="lazy"></picture>
+				</li>
+				<li class="range-images__item">
+					<picture><source srcset="images/range/image-3.webp" type="image/webp"><img class="range-images__img" src="images/range/image-3.png" alt="" loading="lazy"></picture>
+				</li>
+				<li class="range-images__item">
+					<picture><source srcset="images/range/image-4.webp" type="image/webp"><img class="range-images__img" src="images/range/image-4.png" alt="" loading="lazy"></picture>
+				</li>
+				<li class="range-images__item">
+					<picture><source srcset="images/range/image-5.webp" type="image/webp"><img class="range-images__img" src="images/range/image-5.png" alt="" loading="lazy"></picture>
+				</li>
+				<li class="range-images__item">
+					<picture><source srcset="images/range/image-6.webp" type="image/webp"><img class="range-images__img" src="images/range/image-6.png" alt="" loading="lazy"></picture>
+				</li>
+				<li class="range-images__item">
+					<picture><source srcset="images/range/image-7.webp" type="image/webp"><img class="range-images__img" src="images/range/image-7.png" alt="" loading="lazy"></picture>
+				</li>
+				<li class="range-images__item">
+					<picture><source srcset="images/range/image-8.webp" type="image/webp"><img class="range-images__img" src="images/range/image-8.png" alt="" loading="lazy"></picture>
+				</li>
+				<li class="range-images__item">
+					<picture><source srcset="images/range/image-9.webp" type="image/webp"><img class="range-images__img" src="images/range/image-9.png" alt="" loading="lazy"></picture>
+				</li>
+				<li class="range-images__item">
+					<picture><source srcset="images/range/image-10.webp" type="image/webp"><img class="range-images__img" src="images/range/image-10.png" alt="" loading="lazy"></picture>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+				<section class="section-files section-files--reverse section-files--buyers">
+	<div class="section-files__container container section-trigger">
+		<div class="section-files__wrapper">
+			<div class="section-files__img" data-depth="4"></div>
+
+			<div class="section-files__info">
+				<h2 class="section-files__title">Типовой договор поставки для сотрудничества с нашей компанией</h2>
+
+				<a class="section-files__link btn btn--dark" href="#" target="_blank" download>Скачать </a>
+			</div>
+		</div>
+	</div>
+</section>
+
+				<section class="section-form">
+	<div class="section-form__container container">
+		<span class="section-form__line line-trigger"></span>
+		<div class="section-form__inner form-box">
+	<div class="section-form__column section-form__column--left form-box__column form-box__column--left">
+		<div class="form-box__info title-trigger">
+			<h2 class="form-box__title title">Хотите сделать заказ?</h2>
+
+			<p class="form-box__text">Заявка на покупку продуктов.</p>
+		</div>
+	</div>
+
+	<div class="section-form__column section-form__column--right form-box__column form-box__column--right">
+		<div class="form-box__form section-trigger">
+			{% include "../partials/form-fields.twig" with {formId: "OrderBottom"} %}
+
+			<p class="form-box__agreement">В демоверсии заявки не отправляются.</p>
+
+			<button class="form-box__btn btn btn--dark" type="button" disabled>Отправить заявку</button>
+		</div>
+	</div>
+</div>
+	</div>
+</section>
+{% endblock %}
+
+{% block overlays %}
+<div class="popup">
+	<div class="popup__container container">
+		<div class="popup__inner form-box">
+	<div class="popup__column popup__column--left form-box__column form-box__column--left">
+		<div class="form-box__info title-trigger">
+			<h2 class="form-box__title title">Сделать заказ</h2>
+
+			<p class="form-box__text">Заявка на покупку продуктов.</p>
+		</div>
+	</div>
+
+	<div class="popup__column popup__column--right form-box__column form-box__column--right">
+		<div class="form-box__form section-trigger">
+			{% include "../partials/form-fields.twig" with {formId: "OrderPopup"} %}
+
+			<p class="form-box__agreement">В демоверсии заявки не отправляются.</p>
+
+			<button class="form-box__btn btn btn--dark" type="button" disabled>Отправить заявку</button>
+		</div>
+	</div>
+</div>
+	</div>
+</div>
+
+		<div class="popup-slider swiper">
+	<ul class="popup-slider__inner swiper-wrapper">
+		<li class="popup-slider__item swiper-slide">
+			<div class="popup-slider__container container">
+				<div class="popup-slider__image-box">
+					<picture><source srcset="images/range/image-1.webp" type="image/webp"><img class="popup-slider__img" src="images/range/image-1.png" alt="" loading="lazy"></picture>
+				</div>
+
+				<div class="popup-slider__info">
+					<h3 class="popup-slider__name">Консервированная продукция</h3>
+
+					<ul>
+						<li>Консервы мясные, рыбные, овощные</li>
+						<li>Кетчупы</li>
+						<li>Молочная консервация</li>
+					</ul>
+
+					{% include "../partials/range-brands.twig" with {brands: [2, 5, 1, 29, 21, 13, 35, 18, 7, 64]} %}
+				</div>
+			</div>
+		</li>
+
+		<li class="popup-slider__item swiper-slide">
+			<div class="popup-slider__container container">
+				<div class="popup-slider__image-box">
+					<picture><source srcset="images/range/image-2.webp" type="image/webp"><img class="popup-slider__img" src="images/range/image-2.png" alt="" loading="lazy"></picture>
+				</div>
+
+				<div class="popup-slider__info">
+					<h3 class="popup-slider__name">Кондитерские изделия</h3>
+
+					<ul>
+						<li>Бисквиты</li>
+						<li>Вафли</li>
+						<li>Десерты</li>
+						<li>Конфеты и карамель</li>
+						<li>Печенье</li>
+						<li>Шоколад</li>
+						<li>Зефир</li>
+						<li>Мармелад</li>
+						<li>Пряники</li>
+					</ul>
+
+					{% include "../partials/range-brands.twig" with {brands: [5, 15, 19, 70, 36]} %}
+				</div>
+			</div>
+		</li>
+
+		<li class="popup-slider__item swiper-slide">
+			<div class="popup-slider__container container">
+				<div class="popup-slider__image-box">
+					<picture><source srcset="images/range/image-3.webp" type="image/webp"><img class="popup-slider__img" src="images/range/image-3.png" alt="" loading="lazy"></picture>
+				</div>
+
+				<div class="popup-slider__info">
+					<h3 class="popup-slider__name">Продукты быстрого приготовления</h3>
+
+					<ul>
+						<li>Бульоны и супы</li>
+						<li>Лапша</li>
+						<li>Картофельное пюре</li>
+					</ul>
+
+					{% include "../partials/range-brands.twig" with {brands: [63, 15, 9, 24]} %}
+				</div>
+			</div>
+		</li>
+
+		<li class="popup-slider__item swiper-slide">
+			<div class="popup-slider__container container">
+				<div class="popup-slider__image-box">
+					<picture><source srcset="images/range/image-4.webp" type="image/webp"><img class="popup-slider__img" src="images/range/image-4.png" alt="" loading="lazy"></picture>
+				</div>
+
+				<div class="popup-slider__info">
+					<h3 class="popup-slider__name">Масложировая продукция</h3>
+
+					<ul>
+						<li>Майонезы</li>
+						<li>Растительные масла</li>
+						<li>Сливочные масла</li>
+						<li>Маргарины</li>
+						<li>Спреды.</li>
+					</ul>
+
+					{% include "../partials/range-brands.twig" with {brands: [12, 6, 15, 11, 5, 63, 65, 66]} %}
+				</div>
+			</div>
+		</li>
+
+		<li class="popup-slider__item swiper-slide">
+			<div class="popup-slider__container container">
+				<div class="popup-slider__image-box">
+					<picture><source srcset="images/range/image-5.webp" type="image/webp"><img class="popup-slider__img" src="images/range/image-5.png" alt="" loading="lazy"></picture>
+				</div>
+
+				<div class="popup-slider__info">
+					<h3 class="popup-slider__name">Приправы и специи</h3>
+
+					<ul>
+						<li>Смеси для приготовления</li>
+						<li>Приправы</li>
+						<li>Дрожжи</li>
+						<li>Продукция для декора выпечки</li>
+						<li>Красители</li>
+						<li>Разрыхлители</li>
+						<li>Желатин.</li>
+					</ul>
+
+					{% include "../partials/range-brands.twig" with {brands: [14, 31, 15, 9, 5]} %}
+				</div>
+			</div>
+		</li>
+
+		<li class="popup-slider__item swiper-slide">
+			<div class="popup-slider__container container">
+				<div class="popup-slider__image-box">
+					<picture><source srcset="images/range/image-6.webp" type="image/webp"><img class="popup-slider__img" src="images/range/image-6.png" alt="" loading="lazy"></picture>
+				</div>
+
+				<div class="popup-slider__info">
+					<h3 class="popup-slider__name">Макаронные изделия и крупы</h3>
+
+					<ul>
+						<li>Мука</li>
+						<li>Макароны и вермишель</li>
+						<li>Гречка</li>
+						<li>Чечевица</li>
+						<li>Горох</li>
+						<li>Кукуруза</li>
+						<li>Булгур</li>
+						<li>Рис</li>
+						<li>Манная крупа</li>
+						<li>Перловая крупа</li>
+					</ul>
+
+					{% include "../partials/range-brands.twig" with {brands: [8, 14, 15]} %}
+				</div>
+			</div>
+		</li>
+
+		<li class="popup-slider__item swiper-slide">
+			<div class="popup-slider__container container">
+				<div class="popup-slider__image-box">
+					<picture><source srcset="images/range/image-7.webp" type="image/webp"><img class="popup-slider__img" src="images/range/image-7.png" alt="" loading="lazy"></picture>
+				</div>
+
+				<div class="popup-slider__info">
+					<h3 class="popup-slider__name">Сыры и йогурты</h3>
+
+					<ul>
+						<li>Плавленые и творожные сыры</li>
+						<li>Творожки</li>
+						<li>Йогурты</li>
+					</ul>
+
+					{% include "../partials/range-brands.twig" with {brands: [4, 16, 32]} %}
+				</div>
+			</div>
+		</li>
+
+		<li class="popup-slider__item swiper-slide">
+			<div class="popup-slider__container container">
+				<div class="popup-slider__image-box">
+					<picture><source srcset="images/range/image-8.webp" type="image/webp"><img class="popup-slider__img" src="images/range/image-8.png" alt="" loading="lazy"></picture>
+				</div>
+
+				<div class="popup-slider__info">
+					<h3 class="popup-slider__name">Соки, напитки и вода</h3>
+
+					<ul>
+						<li>Минеральная вода</li>
+						<li>Питьевая вода</li>
+						<li>Соки фруктовые и овощные</li>
+						<li>Чаи</li>
+						<li>Энергетические напитки</li>
+					</ul>
+
+					{% include "../partials/range-brands.twig" with {brands: [67, 27, 25, 24]} %}
+				</div>
+			</div>
+		</li>
+
+		<li class="popup-slider__item swiper-slide">
+			<div class="popup-slider__container container">
+				<div class="popup-slider__image-box">
+					<picture><source srcset="images/range/image-9.webp" type="image/webp"><img class="popup-slider__img" src="images/range/image-9.png" alt="" loading="lazy"></picture>
+				</div>
+
+				<div class="popup-slider__info">
+					<h3 class="popup-slider__name">Детское питание</h3>
+
+					<ul>
+						<li>Пюре</li>
+						<li>Соки</li>
+						<li>Каши</li>
+					</ul>
+
+					{% include "../partials/range-brands.twig" with {brands: [67]} %}
+				</div>
+			</div>
+		</li>
+
+		<li class="popup-slider__item swiper-slide">
+			<div class="popup-slider__container container">
+				<div class="popup-slider__image-box">
+					<picture><source srcset="images/range/image-10.webp" type="image/webp"><img class="popup-slider__img" src="images/range/image-10.png" alt="" loading="lazy"></picture>
+				</div>
+
+				<div class="popup-slider__info">
+					<h3 class="popup-slider__name">Чай и кофе</h3>
+
+					<ul>
+						<li>Чаи</li>
+						<li>Кофе</li>
+						<li>Горячий шоколад</li>
+					</ul>
+
+					{% include "../partials/range-brands.twig" with {brands: [68, 33, 26, 69, 20, 24]} %}
+				</div>
+			</div>
+		</li>
+	</ul>
+
+	<div class="popup-slider__buttons">
+		<button class="popup-slider__btn popup-slider__btn--prev" type="button">
+			<span class="sr-only">Предыдущий слайд</span>
+		</button>
+		<button class="popup-slider__btn popup-slider__btn--next" type="button">
+			<span class="popup-slider__btn-text">далее</span>
+			<span class="sr-only">Следующий слайд</span>
+		</button>
+	</div>
+	<button class="popup-slider__close" type="button">
+		<span class="sr-only">Закрыть карусель</span>
+	</button>
+</div>
+
+{% endblock %}

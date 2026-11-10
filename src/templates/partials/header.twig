@@ -1,0 +1,76 @@
+<header class="header header--{% if page == "index" %}gray{% else %}white{% endif %}">
+	<div class="header__container container">
+		<nav class="header__nav">
+			<a class="header__logo" href="index.html">
+				<img class="header__logo-img header__logo-img--white" src="images/logo.svg" width="194" height="48" alt="Логотип Marlen">
+				<img class="header__logo-img header__logo-img--black" src="images/logo-black.svg" width="128" height="32" alt="Логотип Marlen">
+			</a>
+
+			<ul class="header__list">
+				<li class="header__item">
+					<a class="header__link" href="about.html">
+						О компании
+					</a>
+				</li>
+				<li class="header__item">
+					<a class="header__link" href="news.html">
+						Новости
+					</a>
+				</li>
+				<li class="header__item">
+					<a class="header__link" href="suppliers.html">
+						Поставщикам
+					</a>
+				</li>
+				<li class="header__item">
+					<a class="header__link" href="buyers.html">
+						Покупателям
+					</a>
+				</li>
+				<li class="header__item">
+					<a class="header__link" href="logistics.html">
+						Логистика
+					</a>
+				</li>
+			</ul>
+
+			<div class="header__inner">
+				<ul class="header__contacts header-contacts">
+					<li class="header-contacts__item header-contacts__item--mail">
+						<a class="header-contacts__link" href="mailto:marlentd@mail.ru">
+							marlentd@mail.ru
+						</a>
+					</li>
+					<li class="header-contacts__item">
+						<a class="header-contacts__link header-contacts__link--tel" href="tel:+74212423532">
+							+7 (4212) 42-35-32
+						</a>
+					</li>
+				</ul>
+
+				<ul class="header__buttons header-buttons">
+					<li class="header-buttons__item header-buttons__item--profile">
+						<a class="header-buttons__btn header-buttons__btn--profile" href="#">
+							<span class="sr-only">Личный кабинет</span>
+						</a>
+					</li>
+
+					<li class="header-buttons__item header-buttons__item--close">
+						<button class="header-buttons__btn header-buttons__btn--close" type="button">
+							<span class="sr-only">Закрыть панель</span>
+						</button>
+					</li>
+
+					<li class="header-buttons__item">
+						<button class="header-buttons__btn burger" type="button">
+							<span class="sr-only">Открыть меню</span>
+							<span class="burger__line"></span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<span class="header__line"></span>
+</header>

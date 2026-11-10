@@ -1,0 +1,40 @@
+{
+	"results": [
+		{
+			"id": 1,
+			"title": "Владивосток",
+			"street": "ул. Командорская, 11",
+			"email": "VlDir@marlen.khv.ru",
+			"text": "<p><span style=\"white-space: pre-wrap;\"><strong>2200+</strong> клиентов</span></p>",
+			"location_lat": 43.133503,
+			"location_lng": 131.912258
+		},
+		{
+			"id": 2,
+			"title": "Хабаровск",
+			"street": "ул. Промывочная, 13",
+			"email": "marlentd@mail.ru",
+			"text": "<p><span style=\"white-space: pre-wrap;\"><strong>2200+</strong> клиентов</span></p>\r\n<p><span style=\"white-space: pre-wrap;\"><strong>50</strong> машин доставки</span></p>\r\n<p><span style=\"white-space: pre-wrap;\"><strong>170</strong> торговых представителей</span></p>",
+			"location_lat": 48.4468182,
+			"location_lng": 135.1397461
+		},
+		{
+			"id": 3,
+			"title": "Биробиджан",
+			"street": "ул. Тихонькая, 48",
+			"email": "artyukh.a@marlen.khv.ru",
+			"text": "<p><span style=\"white-space: pre-wrap;\"><strong>2200+</strong> клиентов</span></p>\r\n<p><span style=\"white-space: pre-wrap;\"><strong>50</strong> машин доставки</span></p>\r\n<p><span style=\"white-space: pre-wrap;\"><strong>170</strong> торговых представителей</span></p>",
+			"location_lat": 48.7806406,
+			"location_lng": 132.8994163
+		},
+		{
+			"id": 4,
+			"title": "Уссурийск",
+			"street": "ул. Колхозная, 10",
+			"email": "Us1@marlen.khv.ru",
+			"text": "<p><span style=\"white-space: pre-wrap;\"><strong>2200+</strong> клиентов</span></p>\r\n<p><span style=\"white-space: pre-wrap;\"><strong>50</strong> машин доставки</span></p>\r\n<p><span style=\"white-space: pre-wrap;\"><strong>170</strong> торговых представителей</span></p>",
+			"location_lat": 43.76418,
+			"location_lng": 132.01140
+		}
+	]
+}

@@ -1,0 +1,10 @@
+<ul class="popup-slider__image-list popap-images">
+	{% for brand in brands %}
+	<li class="popap-images__item">
+		<picture>
+			<source srcset="images/brands/brand-{{ brand }}.webp" type="image/webp">
+			<img class="popap-images__img" src="images/brands/brand-{{ brand }}.png" alt="" loading="lazy">
+		</picture>
+	</li>
+	{% endfor %}
+</ul>

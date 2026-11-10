@@ -1,0 +1,201 @@
+{% extends "../layout.twig" %}
+
+{% block title %}Marlen | Страница поставщикам{% endblock %}
+
+{% block content %}
+<div class="breadcrumbs">
+	<div class="breadcrumbs__container container">
+		<ul class="breadcrumbs__list">
+			<li class="breadcrumbs__item">
+				<a class="breadcrumbs__link" href="index.html">
+					Главная
+				</a>
+			</li>
+
+			<li class='breadcrumbs__item'><span class='breadcrumbs__link'>Поставщикам</span></li>
+		</ul>
+	</div>
+</div>
+
+				<div class="title-page">
+	<div class="title-page__container container">
+		<h1 class="title-page__title title title--page">Поставщикам
+		</h1>
+
+		<span class="title-page__line"></span>
+	</div>
+</div>
+
+				<section class="hero-page">
+	<div class="hero-page__container container">
+		<div class="hero-page__wrapper">
+			<div class="hero-page__image-box">
+				<picture><source srcset="images/menu/suppliers.webp" type="image/webp"><img class="hero-page__img" src="images/menu/suppliers.png" alt="" loading="lazy"></picture>
+			</div>
+
+			<div class="hero-page__info">
+				<h2 class="hero-page__title title title--hero">Продавайте товары <span class='title__element'>легко и выгодно<span class='title__bg'></span></span></h2>
+
+				<div class='hero-page__text'><p>Работаем с ведущими производителями продуктов питания. Создаем все условия для успешного сотрудничества и реализации товаров в Хабаровском крае, ЕАО и Приморье.</p></div>
+
+				<button class='hero-page__btn btn btn--dark' type='button'>Стать партнёром</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+				<section class="brands">
+	<div class="brands__container container">
+		<h2 class="brands__title title-split">MARLEN — официальный дистрибьютор и представитель крупнейших продуктовых брендов
+		</h2>
+
+		<div class="brands__wrapper section-trigger">
+			<div class="brands__buttons">
+				<button class="brands__btn brands__btn--prev" type="button">
+					<span class="sr-only">Предыдущий слайд</span>
+				</button>
+				<button class="brands__btn brands__btn--next" type="button">
+					<span class="brands__btn-text">Далее</span>
+					<span class="sr-only">Следующий слайд</span>
+				</button>
+			</div>
+
+			{% include "../partials/brand-slider.twig" with {brands: 1..36} %}
+		</div>
+	</div>
+</section>
+
+				<section class="why-us">
+	<div class="why-us__container container">
+		<h2 class="why-us__title title title-trigger">Почему нас выбирают безусловные лидеры?</h2>
+
+		<div class="why-us__inner">
+			<span class="why-us__line line-trigger"></span>
+
+			<ul class="why-us__wrapper section-trigger">
+				<li class="why-us__item">
+					<p class="why-us__text">Представленность товаров в более чем 6000 торговых точек</p>
+					<div class="why-us__image-box">
+						<picture><source srcset="images/why-us/image-1.webp" type="image/webp"><img class="why-us__img" src="images/why-us/image-1.jpg" alt="" loading="lazy"></picture>
+					</div>
+				</li>
+
+				<li class="why-us__item">
+					<p class="why-us__text">Участие в маркетинговых акциях</p>
+					<div class="why-us__image-box">
+						<picture><source srcset="images/why-us/image-2.webp" type="image/webp"><img class="why-us__img" src="images/why-us/image-2.jpg" alt="" loading="lazy"></picture>
+					</div>
+				</li>
+
+				<li class="why-us__item">
+					<p class="why-us__text">Быстрая и бесплатная доставка продукции покупателям</p>
+					<div class="why-us__image-box">
+						<picture><source srcset="images/why-us/image-3.webp" type="image/webp"><img class="why-us__img" src="images/why-us/image-3.jpg" alt="" loading="lazy"></picture>
+					</div>
+				</li>
+
+				<li class="why-us__item">
+					<p class="why-us__text">Большой автопарк собственных оборудованных грузовых автомобилей</p>
+					<div class="why-us__image-box">
+						<picture><source srcset="images/why-us/image-4.webp" type="image/webp"><img class="why-us__img" src="images/why-us/image-4.jpg" alt="" loading="lazy"></picture>
+					</div>
+				</li>
+
+				<li class="why-us__item">
+					<p class="why-us__text">Использование собственных логистических схем</p>
+					<div class="why-us__image-box">
+						<picture><source srcset="images/why-us/image-5.webp" type="image/webp"><img class="why-us__img" src="images/why-us/image-5.jpg" alt="" loading="lazy"></picture>
+					</div>
+				</li>
+
+				<li class="why-us__item">
+					<p class="why-us__text">Предоставление детальных отчетов</p>
+					<div class="why-us__image-box">
+						<picture><source srcset="images/why-us/image-6.webp" type="image/webp"><img class="why-us__img" src="images/why-us/image-6.jpg" alt="" loading="lazy"></picture>
+					</div>
+				</li>
+
+				<li class="why-us__item">
+					<p class="why-us__text">Бесплатное хранение товаров на оборудованных складах при нужной температуре</p>
+					<div class="why-us__image-box">
+						<picture><source srcset="images/why-us/image-7.webp" type="image/webp"><img class="why-us__img" src="images/why-us/image-7.jpg" alt="" loading="lazy"></picture>
+					</div>
+				</li>
+
+				<li class="why-us__item">
+					<p class="why-us__text">Собственные подъездные железнодорожные пути у каждого филиала</p>
+					<div class="why-us__image-box">
+						<picture><source srcset="images/why-us/image-8.webp" type="image/webp"><img class="why-us__img" src="images/why-us/image-8.jpg" alt="" loading="lazy"></picture>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+				<section class="section-files ">
+	<div class="section-files__container container section-trigger">
+		<div class="section-files__wrapper">
+			<div class="section-files__img" data-depth="4"></div>
+
+			<div class="section-files__info">
+				<h2 class="section-files__title">Узнайте больше об успехах нашей компании</h2>
+
+				<a class="section-files__link btn btn--dark" href="#" target="_blank" >Открыть презентацию</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+				<section class="section-form">
+	<div class="section-form__container container">
+		<span class="section-form__line line-trigger"></span>
+		<div class="section-form__inner form-box">
+	<div class="section-form__column section-form__column--left form-box__column form-box__column--left">
+		<div class="form-box__info title-trigger">
+			<h2 class="form-box__title title">Остались вопросы?</h2>
+
+			<p class="form-box__text">Заявка на сотрудничество.</p>
+		</div>
+	</div>
+
+	<div class="section-form__column section-form__column--right form-box__column form-box__column--right">
+		<div class="form-box__form section-trigger">
+			{% include "../partials/form-fields.twig" with {formId: "Questions"} %}
+
+			<p class="form-box__agreement">В демоверсии заявки не отправляются.</p>
+
+			<button class="form-box__btn btn btn--dark" type="button" disabled>Отправить заявку</button>
+		</div>
+	</div>
+</div>
+	</div>
+</section>
+{% endblock %}
+
+{% block overlays %}
+<div class="popup">
+	<div class="popup__container container">
+		<div class="popup__inner form-box">
+	<div class="popup__column popup__column--left form-box__column form-box__column--left">
+		<div class="form-box__info title-trigger">
+			<h2 class="form-box__title title">Стать партнёром</h2>
+
+			<p class="form-box__text">Заявка на сотрудничество.</p>
+		</div>
+	</div>
+
+	<div class="popup__column popup__column--right form-box__column form-box__column--right">
+		<div class="form-box__form section-trigger">
+			{% include "../partials/form-fields.twig" with {formId: "Partnership"} %}
+
+			<p class="form-box__agreement">В демоверсии заявки не отправляются.</p>
+
+			<button class="form-box__btn btn btn--dark" type="button" disabled>Отправить заявку</button>
+		</div>
+	</div>
+</div>
+	</div>
+</div>
+
+{% endblock %}
